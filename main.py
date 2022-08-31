@@ -115,13 +115,13 @@ def cons():
                 if r.status_code == 200:
                     soup = bs(r.text, 'html.parser')
                     val1 = soup.find("span", class_="typography__StyledTypography-owin6q-0 jvRAOp")
-                    print(val1.text)
+                    print(float(val1.text))
 
                 elif r.status_code == 404:
                     print("Oops! Not found.")
             
-            elif arz_avalie not in cr_list:
-                print("Sorry\n We are not supported this crypto currency!")
+                elif arz_avalie not in cr_list:
+                    print("Sorry\n We are not supported this crypto currency!")
 
     except KeyboardInterrupt:
         sys.exit()
