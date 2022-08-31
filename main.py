@@ -4,6 +4,7 @@ This My mini project for bezzar of crypto currencys
 coder --> Eliot Elderson (EE)
 Email --> N0000000!
 Created in --> 27 Agu 2022
+Update in --> 31 Agu 2022
 support time --> forever :)
 Please Email:((((( --> coderpy@yahoo.com 
 
