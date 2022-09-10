@@ -4,7 +4,7 @@ This My mini project for bezzar of crypto currencys
 coder --> Eliot Elderson (EE)
 Email --> N0000000!
 Created in --> 27 Agu 2022
-Update in --> 31 Agu 2022
+Update in --> 10 SEP 2022
 support time --> forever :)
 Please Email:((((( --> coderpy@yahoo.com 
 
@@ -66,18 +66,19 @@ cr_list = [
 os.system("clear")
 
 #banner!
-print(bold+color.MAGENTA+'''                                                                 
-                                                                 
-  _ __ ___  _ __ ______ ___ _   _ _ __ _ __ ___ _ __   ___ _   _ 
- | '_ ` _ \| '__|______/ __| | | | '__| '__/ _ \ '_ \ / __| | | |
- | | | | | | |        | (__| |_| | |  | | |  __/ | | | (__| |_| |
- |_| |_| |_|_|         \___|\__,_|_|  |_|  \___|_| |_|\___|\__, |
-                                                            __/ |
-                                                           |___/ 
-'''+endbold)
 
 # functions
 def ban():
+    print(bold+color.MAGENTA+'''                                                                 
+                                                                 
+    _ __ ___  _ __ ______ ___ _   _ _ __ _ __ ___ _ __   ___ _   _ 
+    | '_ ` _ \| '__|______/ __| | | | '__| '__/ _ \ '_ \ / __| | | |
+    | | | | | | |        | (__| |_| | |  | | |  __/ | | | (__| |_| |
+    |_| |_| |_|_|         \___|\__,_|_|  |_|  \___|_| |_|\___|\__, |
+                                                               __/ |
+                                                              |___/ 
+    '''+endbold)
+
     print("Welcome to Mr currncy app!")
     print("You can type list to see list!")
     print("You can type exit to exit of this app!")
