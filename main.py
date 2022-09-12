@@ -107,6 +107,9 @@ def cons():
             
             if arz_avalie == "help":
                 ban()
+            
+            if arz_avalie == "see":
+                print(cr_list)
 
             if arz_avalie == "clear":
                 os.system("clear")
